@@ -1,0 +1,331 @@
+body { background-color: #000000; }
+
+h1 { font-family: Georgia, 'Times New Roman', Times, serif; 
+     color: #FFFFFF; 
+     text-align: center;
+     font-size: 6em; }
+h2 { font-family: Georgia, 'Times New Roman', Times, serif; 
+     color: #FFFFFF; 
+     text-align: center;
+     font-size: 2.0em; }
+h3 { font-family: Georgia, 'Times New Roman', Times, serif; 
+     color: #FFFFFF; 
+     text-align: center;
+     font-size: 1.5em; }
+
+nav { font-family: Arial, Helvetica, sans-serif; 
+      color: #FF0000; 
+      font-weight: bold; 
+      text-align: center;
+      z-index: 9999;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: .5em; 
+      height: 40px;
+      background:rgba(25, 25, 25, 0.70);
+      width: 100%;
+      font-size: 150%;
+      font-weight: bold;
+      min-width: 900px; }
+nav ul { list-style-type: none; 
+         margin: 5px; }
+nav ul li { display: inline; 
+            padding-left: 2em; 
+            padding-right: 2em; }
+nav a { text-decoration:none; }
+nav a:link { color: #FF0000; }
+nav a:visited { color: darkred; }
+nav a:hover { color: #0000DD; }
+
+p { font-family: Arial, Helvetica, sans-serif; 
+             color: #FF0000; 
+             font-weight: bold; 
+             text-align: center;
+             background-color: #000000; }
+a { text-decoration: none;
+    color: #FF0000; }
+
+.wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 70%; }
+
+.button { width: 20%;
+          color: darkred;
+          background-color: rgba(25, 25, 25, 0.70);
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 200%;
+          font-weight: bold;
+          text-align: center;
+          text-decoration: none;
+          margin: auto; }
+.button:link { color: #FF0000; }
+.button:visited { color: darkred; }
+.button:hover { color: #0000DD; }
+
+.buttonchoice { width: 20%;
+     background-color: rgba(25, 25, 25, 0.70);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 200%;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: none;
+     margin: auto;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 20px;
+     padding-bottom: 20px; }
+.buttonchoice:link { color: #FF0000; }
+.buttonchoice:hover { color: #0000DD; } 
+
+.rightAlign { text-align: right;
+              padding-right: 50px; }
+.floatleft { float: left;
+             padding-right: 2em;
+             padding-bottom: 2em; }
+.floatright { float: right;
+              padding-right: 2em;
+              padding-bottom: 2em; }
+.description { padding-left: 30%;
+               padding-right: 30%;
+               overflow: auto; }
+.space  { height: 20vh; }
+.spacesmall { height: 1vh; }
+.spacemedium { height: 5vh; }
+
+#margintopandlargetext { margin-top: 10vh;
+                          font-size: 200%;
+                          text-align: center;
+                          color: darkred; }
+#centeredtextenlarger { font-size: 200%;
+                        text-align: center;
+                        color: darkred; }
+
+.hero { background-image: url(evilfacebackground1.JPG); 
+        min-height: 100vh; 
+	   background-position: center;
+        background-repeat: repeat; 
+        background-size: cover;
+        background-attachment: fixed; }
+.deadhero1 { background-image: url(youaredeadscreen1.JPG); 
+        min-height: 100vh; 
+        background-position: center;
+        background-repeat: repeat; 
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #000000; }
+.ladderhero1 { background-image: url(ladderhero.jpg); 
+        min-height: 100vh; 
+        background-position: center;
+        background-repeat: repeat; 
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #000000; }
+.wooddoorhero1 { background-image: url(findingthehandgun.jpg); 
+                 min-height: 100vh; 
+                 background-position: center;
+                 background-repeat: repeat; 
+                 background-size: cover;
+                 background-attachment: fixed;
+                 background-color: #000000; }
+
+.part1hero { background-image: url(leoncheckingfiles.JPG); 
+            min-height: 100vh; 
+            background-position: center;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            background-attachment: scroll; }
+.part1hero2 { background-image: url(residentevil2leon.jpg); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: scroll; }
+.part1hero3 { background-image: url(zombiegrave.jpg); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: scroll; }
+.part1hero4 { background-image: url(burningman.jpg); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: scroll; }
+
+.reddoorroomhero { background-image: url(redroomzombie.png); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: fixed; }
+.reddoorroomhero2 { background-image: url(redroomzombie2.jpg); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: fixed; }
+.reddoorroomdeath { background-image: url(leondeath.jpg); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: fixed; }
+.reddoorroomdeath2 { background-image: url(youdied.jpg); 
+             min-height: 100vh; 
+             background-position: center;
+             background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: fixed; }
+.typewritersave1 { background-image: url(typewriter.png); 
+     min-height: 100vh; 
+     background-position: center;
+     background-repeat: no-repeat; 
+     background-attachment: scroll; }
+
+.part2hero { background-image: url(umbrellacorp.jpg); 
+               min-height: 100vh; 
+               background-position: center;
+               background-repeat: no-repeat; 
+               background-size: cover;
+               background-attachment: fixed; }
+.part2correcthero { background-image: url(claireandleon.jpg); 
+                    min-height: 100vh; 
+                    background-position: center;
+                    background-repeat: no-repeat; 
+                    background-size: cover;
+                    background-attachment: fixed; }
+.part2correcthero2 { background-image: url(policestation1.jpg); 
+                     min-height: 100vh; 
+                     background-position: center;
+                     background-repeat: no-repeat; 
+                     background-size: cover;
+                     background-attachment: fixed; }
+.part2correcthero3 { background-image: url(lookingaround1.jpg); 
+                     min-height: 100vh; 
+                     background-position: center;
+                     background-repeat: no-repeat; 
+                     background-size: cover;
+                     background-attachment: fixed; }
+footer { font-family: Arial, Helvetica, sans-serif; 
+         color: #FF0000; 
+         font-weight: bold; 
+         text-align: center;
+         z-index: 9998;
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         padding: .5em; 
+         height: 40px;
+         background:rgba(25, 25, 25, 0.70);
+         width: 100%;
+         font-size: 150%;
+         font-weight: bold;
+         min-width: 900px; }
+footer ul { list-style-type: none; 
+            margin: 5px; }
+footer ul li { display: inline; 
+               padding-left: 2em; 
+               padding-right: 2em; }
+.progresswarning { background: linear-gradient(to right, rgb(170, 99, 5) 50%, #000000 50%);
+                   border: 0;
+                   height: 18px;
+                   border-radius: 9px; }
+.progresswarning::-webkit-progress-bar { background: linear-gradient(to right, rgb(170, 99, 5) 50%, #000000 50%);
+                                         border: 0;
+                                         height: 18px;
+                                         border-radius: 9px; }
+.progresswarning::-webkit-progress-value { background: linear-gradient(to right, rgb(170, 99, 5) 50%, #000000 50%);
+                                           border: 0;
+                                           height: 18px;
+                                           border-radius: 9px; }
+.progresswarning::-moz-progress-bar { background: linear-gradient(to right, rgb(170, 99, 5) 50%, #000000 50%);
+                                      border: 0;
+                                      height: 18px;
+                                      border-radius: 9px; }
+.hidden { display: none; }
+.center { display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 90%; }
+.center2 { display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 80%; }
+.center3 { display: block;
+               margin-left: auto;
+               margin-right: auto;
+               width: 50%; }
+.hunterattack { background-image: url(hunterattack.jpg); 
+                min-height: 100vh; 
+                background-position: center;
+                background-repeat: no-repeat; 
+                background-size: cover;
+                background-attachment: fixed; }
+.progressdead { background-color: #000000;
+                border: 0;
+                height: 18px;
+                border-radius: 9px; }
+.progressdead::-webkit-progress-bar { background-color: #000000;
+                                      border: 0;
+                                      height: 18px;
+                                      border-radius: 9px; }
+.progressdead::-webkit-progress-value { background-color: #000000;
+                                        border: 0;
+                                        height: 18px;
+                                        border-radius: 9px; }
+.progressdead::-moz-progress-bar { background-color: #000000;
+                                   border: 0;
+                                   height: 18px;
+                                   border-radius: 9px; }
+.progressgreen { background-color: #00FF00;
+                 border: 0;
+                 height: 18px;
+                 border-radius: 9px; }
+.progressgreen::-webkit-progress-bar { background-color: #00FF00;
+                                       border: 0;
+                                       height: 18px;
+                                       border-radius: 9px; }
+.progressgreen::-webkit-progress-value { background-color: #00FF00;
+                                         border: 0;
+                                         height: 18px;
+                                         border-radius: 9px; }
+.progressgreen::-moz-progress-bar { background-color: #00FF00;
+                                    border: 0;
+                                    height: 18px;
+                                    border-radius: 9px; }
+.part2parkinggaragehero1 { background-image: url(parkinggarageenter.jpg); 
+                           min-height: 100vh; 
+                           background-position: center;
+                           background-repeat: no-repeat; 
+                           background-size: cover;
+                           background-attachment: scroll; }
+.part2parkinggarageherodog { background-image: url(dogattack1.jpg); 
+                           min-height: 100vh; 
+                           background-position: center;
+                           background-repeat: no-repeat; 
+                           background-size: cover;
+                           background-attachment: scroll; }
+.part2parkinggaragehero2 { background-image: url(parkinggarage2.jpg); 
+                           min-height: 100vh; 
+                           background-position: center;
+                           background-repeat: no-repeat; 
+                           background-size: cover;
+                           background-attachment: scroll; }
+.part2parkinggaragehero3 { background-image: url(parkinggarage3.png); 
+                           min-height: 100vh; 
+                           background-position: center;
+                           background-repeat: no-repeat; 
+                           background-size: cover;
+                           background-attachment: scroll; }
+.part2parkinggaragehero4 { background-image: url(parkinggarage4.jpg); 
+                           min-height: 100vh; 
+                           background-position: center;
+                           background-repeat: no-repeat; 
+                           background-size: cover;
+                           background-attachment: scroll; }
+
+
+
